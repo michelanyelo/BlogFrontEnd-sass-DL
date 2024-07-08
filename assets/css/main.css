@@ -48,15 +48,13 @@ a:link {
 }
 
 .login {
-  border: none;
-  border-radius: 5px;
   padding: 2rem 1.5rem;
   margin: auto;
   width: 30vw;
 }
 .login__title {
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 700;
   text-align: center;
   padding: 1rem 0;
 }
@@ -79,6 +77,26 @@ a:link {
 }
 .login__register__link {
   font-weight: 700;
+}
+
+.suscripcion {
+  padding: 1rem 5rem;
+  margin: auto;
+}
+.suscripcion__subtitle {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: left;
+  padding: 1rem 0;
+  width: 50vw;
+}
+.suscripcion__subtitle--white {
+  color: #fff;
+}
+.suscripcion__register {
+  margin: 1rem 0;
+  padding: 1rem 0;
+  font-size: 1rem;
 }
 
 .logo {
@@ -195,7 +213,7 @@ a:link {
   background-color: #292C33;
 }
 .categoria--vue {
-  background-color: #67C770;
+  background-color: #63AF2B;
 }
 .categoria--bootstrap {
   background-color: #563D7C;
@@ -227,21 +245,21 @@ a:link {
   border-bottom: solid 2px #292C33;
 }
 
-button {
+button.btn__login {
   width: 100%;
   color: #fff;
-  cursor: pointer;
-  font-weight: 700;
-  font-size: 16px;
-  margin: 1rem 0;
   padding: 1rem 0;
+  margin: 1rem 0;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
   border: 1px solid #d8d8d8;
   border-radius: 4px;
 }
-button.primary {
+button.btn__login.primary {
   background-color: #729E2E;
 }
-button.secondary {
+button.btn__login.secondary {
   background-color: #fff;
   color: #000;
   display: flex;
@@ -249,6 +267,17 @@ button.secondary {
   flex-direction: row;
   justify-content: center;
   padding: 0.5rem 0;
+}
+button.btn__suscripcion {
+  width: 30%;
+  color: #333;
+  padding: 0.8rem 0;
+  margin-left: 5rem;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  border: 1px solid #d8d8d8;
+  border-radius: 4px;
 }
 
 input[type=checkbox],
@@ -263,7 +292,7 @@ input[type=email],
 input[type=password],
 input[type=text] {
   width: 100%;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   padding: 0.8rem 0;
   padding-left: 1rem;
   font-size: 1rem;
@@ -273,6 +302,21 @@ input[type=text] {
 input[type=checkbox] {
   height: 1.5rem;
   width: 1.5rem;
+}
+
+.suscripcion__botones input[type=email] {
+  width: 50%;
+}
+
+.suscripcion {
+  border: none;
+  border-radius: 5px;
+  background-color: #63AF2B;
+}
+
+.login {
+  border: none;
+  border-radius: 5px;
 }
 
 html,

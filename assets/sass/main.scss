@@ -10,10 +10,12 @@
 @import 'base/reset', 'base/anchors';
 
 // Importaciones Layout
-@import 'layout/container', 'layout/form-login';
+@import 'layout/container', 'layout/form-login', 'layout/form-suscripcion';
 
 // Importaciones Components
-@import 'components/logo', 'components/post', 'components/categoria', 'components/user', 'components/section', 'components/button', 'components/input';
+@import 'components/logo', 'components/post', 'components/categoria',
+'components/user', 'components/section', 'components/button',
+'components/input', 'components/form-suscripcion', 'components/form-login';
 
 // Importaciones Themes
 @import 'themes/main';

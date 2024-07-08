@@ -1,13 +1,11 @@
 .login {
-    border: none;
-    border-radius: 5px;
     padding: 2rem 1.5rem;
     margin: auto;
     width: 30vw;
 
     &__title {
         font-size: $font-title;
-        font-weight: 500;
+        font-weight: $font-bold;
         text-align: center;
         padding: 1rem 0;
     }
