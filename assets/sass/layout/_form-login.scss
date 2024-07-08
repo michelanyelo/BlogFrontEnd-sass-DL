@@ -1,0 +1,39 @@
+.login {
+    border: none;
+    border-radius: 5px;
+    padding: 2rem 1.5rem;
+    margin: auto;
+    width: 30vw;
+
+    &__title {
+        font-size: $font-title;
+        font-weight: 500;
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    &__remember,
+    &__register {
+        margin: $my-1;
+        padding: $py-1;
+        font-size: 1rem;
+    }
+
+    &__remember {
+        @include flex-align-center;
+        justify-content: space-between;
+
+        &__text {
+            margin-right: $me-0;
+            margin-left: $ms-1;
+        }
+    }
+
+    &__register {
+        text-align: center;
+
+        &__link {
+            font-weight: $font-bold;
+        }
+    }
+}

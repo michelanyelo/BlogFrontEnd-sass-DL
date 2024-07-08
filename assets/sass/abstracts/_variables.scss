@@ -1,4 +1,5 @@
-$black: #000000;
+$black: #000;
+$white: #fff;
 $red: #E93E30;
 $yellow: #F7E018;
 $light-blue: #299ED5;
@@ -7,3 +8,30 @@ $green: #67C770;
 $purple: #563D7C;
 
 $horizontal-post-height: 8rem;
+
+// Font stack form
+$font-poppin: 'Poppins', sans-serif;
+
+// Colores form
+$form-primary-color: #729E2E;
+$form-semi-black: #333;
+$form-border-color: #d8d8d8;
+
+// Margin Top / Bottom
+$my-1: 1rem 0;
+// Margin Left
+$ms-1: 1rem;
+// Margin Right
+$me-0: auto;
+
+// Padding All
+$p-1: 1rem;
+// Padding Top / Bottom
+$py-1: 1rem 0;
+// Padding Left
+$ps-1: 1rem;
+
+
+// Font
+$font-title: 2rem;
+$font-bold: 700;

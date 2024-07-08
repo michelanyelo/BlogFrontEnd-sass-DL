@@ -1,0 +1,8 @@
+@mixin border-solid {
+    border: 1px solid $form-border-color;
+}
+
+@mixin flex-align-center {
+    display: flex;
+    align-items: center;
+}

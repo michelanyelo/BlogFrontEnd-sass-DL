@@ -2,22 +2,18 @@
 @charset 'UTF-8';
 
 // Importaciones Abstracts
-@import 'abstracts/variables', 'abstracts/typography';
+@import 'abstracts/variables', 'abstracts/typography', 'abstracts/mixins';
 
 // Importaciones Vendors
 
 // Importaciones Base
-@import 'base/reset';
-// 'base/typography',
-// 'base/anchors';
+@import 'base/reset', 'base/anchors';
 
 // Importaciones Layout
-@import 'layout/container';
+@import 'layout/container', 'layout/form-login';
 
 // Importaciones Components
-@import 'components/logo', 'components/post', 'components/categoria', 'components/user', 'components/section';
-// @import 'components/input';
-// @import 'components/button';
+@import 'components/logo', 'components/post', 'components/categoria', 'components/user', 'components/section', 'components/button', 'components/input';
 
 // Importaciones Themes
 @import 'themes/main';
