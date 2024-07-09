@@ -1,13 +1,13 @@
 .login {
     padding: 2rem 1.5rem;
-    margin: auto;
+    margin: $mx-0;
     width: 30vw;
 
     &__title {
         font-size: $font-title;
         font-weight: $font-bold;
         text-align: center;
-        padding: 1rem 0;
+        padding: $py-1;
     }
 
     &__remember,
@@ -18,7 +18,8 @@
     }
 
     &__remember {
-        @include flex-align-center;
+        display: flex;
+        align-items: center;
         justify-content: space-between;
 
         &__text {

@@ -1,13 +1,13 @@
 .suscripcion {
     padding: 1rem 5rem;
-    margin: auto;
+    margin: $mx-0;
 
     &__subtitle {
         font-size: $font-subtitle;
         font-weight: $font-medium;
         text-align: left;
-        padding: 1rem 0;
-        width: 50vw;
+        padding: $py-1;
+        width: $w-50;
 
         &--white{
             color: $white;

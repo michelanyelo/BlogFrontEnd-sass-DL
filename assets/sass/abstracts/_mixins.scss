@@ -1,16 +1,43 @@
+// Mixin for solid border style
 @mixin border-solid {
     border: 1px solid $form-border-color;
 }
 
-@mixin flex-align-center {
-    display: flex;
-    align-items: center;
-}
-
-@mixin button-common {
+// Mixin for button styles
+@mixin button-style {
     font-size: 16px;
     font-weight: $font-bold;
     cursor: pointer;
     @include border-solid;
     border-radius: 4px;
+}
+
+// Mixin for flexbox row layout
+@mixin flexbox-row {
+    display: flex;
+    flex-direction: row;
+}
+
+// Mixin for flexbox column layout
+@mixin flexbox-column {
+    display: flex;
+    flex-direction: column;
+}
+
+// Mixin for card style with flexbox column layout
+@mixin v-card-style {
+    @include flexbox-column;
+    max-width: 70vw;
+}
+
+// Mixin for date text style
+@mixin date-style {
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+// Mixin for image style
+@mixin img-style {
+    border-radius: $br-1;
+    object-fit: cover;
 }

@@ -1,22 +1,21 @@
 .user {
-    display: flex;
-    margin-top: 0.8rem;
-    flex-direction: row;
+    @include flexbox-row;
+    margin-top: $mt-1;
     align-self: baseline;
     align-items: center;
-    height: 3rem;
+    height: $h-3;
 
     &__img {
         border-radius: 50%;
-        height: 100%;
-        margin-right: 1rem;
+        height: $h-100;
+        margin-right: $me-1;
     }
 
     &__text {
-        font-weight: 400;
+        font-weight: $font-regular;
     }
 }
 
 .user--small {
-    height: 2rem;
+    height: $h-2;
 }

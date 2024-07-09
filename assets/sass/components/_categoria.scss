@@ -1,28 +1,28 @@
 // BEM Categoria
 .categoria {
-    border-radius: 8px;
-    height: 5rem;
-    display: flex;
-    flex-direction: row;
+    @include flexbox-row;
+    width: 100%;
+    border-radius: $br-1;
+    height: $h-5;
     align-items: center;
     justify-content: space-between;
 
     &:not(:first-of-type) {
-        margin-top: 1rem;
+        margin-top: $mt-1;
     }
 
     &__img {
-        height: 100%;
-        margin-left: 2rem;
-        object-fit: cover;
+        height: $h-100;
+        margin-left: $ms-2;
+        @include img-style;
     }
 
     &__text {
         font-size: 2rem;
-        margin-right: 1rem;
+        margin-right: $me-1;
         text-align: right;
-        color: white;
-        font-weight: 700;
+        color: $white;
+        font-weight: $font-bold;
     }
 
     &--html {

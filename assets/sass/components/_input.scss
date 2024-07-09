@@ -2,19 +2,19 @@ input[type="checkbox"],
 input[type="email"],
 input[type="password"],
 input[type="text"] {
-    border-radius: 5px;
+    border-radius: 4px;
     @include border-solid;
 }
 
 input[type="email"],
 input[type="password"],
 input[type="text"] {
-    width: 100%;
+    width: $w-100;
     margin: 0.5rem 0;
     padding: 0.8rem 0;
     padding-left: $ps-1;
     font-size: 1rem;
-    color: #333;
+    color: $form-semi-black;
 }
 
 input[type="checkbox"] {
@@ -24,6 +24,6 @@ input[type="checkbox"] {
 
 .suscripcion__botones {
     input[type="email"] {
-        width: 50%;
+        width: $w-50;
     }
 }

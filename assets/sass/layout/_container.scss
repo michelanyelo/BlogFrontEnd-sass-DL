@@ -5,28 +5,61 @@
 
 // Container para dar flexbox horizontal
 .h-container {
-    width: 100%;
-    display: flex; // crea contenedor de tipo flex
-    flex-direction: row; // dirección de tipo flex
+    @include flexbox-row;
     justify-content: space-between;
 }
 
 .posts-container {
-    display: flex;
-    flex-direction: row;
+    @include flexbox-row;
     flex-wrap: wrap;
     gap: 0.5rem;
     width: 60%;
-    padding-top: 1rem;
+    padding-top: $pt-1;
 }
 
 // Contenedor tipo aside con dirección en columnas
 .aside-container {
-    margin-left: 2rem;
-    display: flex;
-    flex-direction: column;
+    margin-left: $ms-2;
+    @include flexbox-column;
 
     @media (min-width: 700px) {
         width: 38%;
+    }
+}
+
+// Contenedor para el contenido de carta en Post
+.main-post__container {
+    @include flexbox-row;
+    width: $w-100;
+    justify-content: center;
+    margin-bottom: $mb-2;
+}
+
+.main-card__container {
+    margin-top: $mt-2;
+    padding: $p-2;
+    background-color: #f1f1f1;
+    border-radius: $br-1;
+
+    @include flexbox-column;
+    align-items: center;
+}
+
+.rel-post {
+    @include flexbox-column;
+    margin: $mx-0;
+    margin-top: $mt-3;
+    align-items: flex-start;
+    max-width: 70vw;
+    width: $w-100;
+
+    &__container {
+        margin-top: $mt-2;
+        @include flexbox-row;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: $w-100;
+        /* max-width: 70vw; */
+
     }
 }

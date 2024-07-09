@@ -1,50 +1,48 @@
 .h-post {
-    display: flex;
-    flex-direction: row;
+    @include flexbox-row;
+    width: $w-100;
     height: $horizontal-post-height;
 
     &:not(:first-of-type) {
-        padding-top: 1rem;
+        padding-top: $pt-1;
     }
 
     &__content {
-        display: flex;
-        flex-direction: column;
-
+        @include flexbox-column;
     }
 
     &__img {
-        height: 100%;
-        border-radius: 8px;
-        margin-right: 1rem;
+        @include img-style;
+        height: $h-100;
+        margin-right: $me-1;
         width: calc($horizontal-post-height + 0.5rem);
-        object-fit: cover;
     }
 
     &__date {
-        font-weight: 400;
+        font-weight: $font-regular;
         font-size: 0.8rem;
     }
 }
 
 .v-post {
-    display: flex;
-    flex-direction: column;
-    max-width: 40rem;
-
-    @media (min-width: 700px) {
-        width: 60%;
-    }
+    @include v-card-style;
 
     &__date {
-        font-weight: 400;
-        font-size: 0.9rem;
+        @include date-style;
     }
 
     &__img {
-        border-radius: 8px;
+        @include img-style;
         margin-bottom: 1.5rem;
-        object-fit: cover; // No deforma la imagen
+    }
+
+    &__link {
+        color: $grey;
+        font-weight: $font-regular;
+        font-size: 16px;
+        line-height: 30px;
+        text-decoration: none;
+        margin-top: $mt-1;
     }
 
     &--small {
@@ -53,5 +51,25 @@
         .v-post__img {
             height: 8rem;
         }
+    }
+}
+
+.main-post {
+    &__card {
+        @include v-card-style;
+    }
+
+    &__date {
+        @include date-style;
+        margin-left: $ms-2;
+    }
+
+    &__text {
+        font-weight: $font-regular;
+    }
+
+    &__img {
+        @include img-style;
+        margin: $my-2;
     }
 }

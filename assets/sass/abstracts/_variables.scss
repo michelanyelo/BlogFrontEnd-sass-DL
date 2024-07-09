@@ -1,3 +1,4 @@
+// Color palette
 $black: #000;
 $white: #fff;
 $red: #E93E30;
@@ -7,34 +8,53 @@ $grey: #292C33;
 $green: #63AF2B;
 $purple: #563D7C;
 
-$horizontal-post-height: 8rem;
-
-// Font stack form
-$font-poppin: 'Poppins', sans-serif;
-
-// Colores form
+// Form colors
 $form-primary-color: #729E2E;
 $form-semi-black: #333;
 $form-border-color: #d8d8d8;
 
-// Margin Top / Bottom
-$my-1: 1rem 0;
-// Margin Left
-$ms-1: 1rem;
-$ms-5: 5rem;
-// Margin Right
-$me-0: auto;
+// Font stack
+$font-poppin: 'Poppins', sans-serif;
 
-// Padding All
-$p-1: 1rem;
-// Padding Top / Bottom
-$py-1: 1rem 0;
-// Padding Left
-$ps-1: 1rem;
-
-
-// Font
+// Font sizes and weights
 $font-title: 2rem;
 $font-subtitle: 1.2rem;
 $font-bold: 700;
 $font-medium: 500;
+$font-regular: 400;
+
+// Heights
+$h-2: 2rem;
+$h-3: 3rem;
+$h-5: 5rem;
+$h-100: 100%;
+$horizontal-post-height: 8rem;
+
+// Widths
+$w-100: 100%;
+$w-50: 50%;
+
+// Border radius
+$br-1: 1rem;
+
+// Margins
+$my-1: 1rem 0;  // Margin top and bottom
+$my-2: 2rem 0;  // Margin top and bottom
+$mb-2: 2rem;    // Margin bottom
+$mt-1: 1rem;    // Margin top
+$mt-2: 2rem;    // Margin top
+$mt-3: 3rem;    // Margin top
+$ms-1: 1rem;    // Margin start (left)
+$ms-2: 2rem;    // Margin start (left)
+$ms-5: 5rem;    // Margin start (left)
+$mx-0: auto;    // Margin left and right auto
+$me-0: auto;    // Margin end (right) auto
+$me-1: 1rem;    // Margin end (right)
+
+// Paddings
+$p-1: 1rem;     // Padding all sides
+$p-2: 2rem;     // Padding all sides
+$py-1: 1rem 0;  // Padding top and bottom
+$py-2: 2rem 0;  // Padding top and bottom
+$pt-1: 1rem;    // Padding top
+$ps-1: 1rem;    // Padding start (left)
