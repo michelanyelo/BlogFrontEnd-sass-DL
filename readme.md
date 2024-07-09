@@ -7,8 +7,8 @@ Este repositorio contiene un proyecto web desarrollado utilizando la estructura 
 
 [Revisa el resultado final aquí](https://michelanyelo.github.io/BlogFrontEnd-sass-DL/)
 
-<img src="https://github.com/michelanyelo/BlogFrontEnd-sass-DL/assets/63103992/5e81c36d-7a46-443d-a385-7f1f33d67c80" height="400">
-<img src="https://github.com/michelanyelo/BlogFrontEnd-sass-DL/assets/63103992/a3733f8b-61b4-49bb-a9c9-75de7353b1d4" height="400">
+<img src="https://github.com/michelanyelo/BlogFrontEnd-sass-DL/assets/63103992/5e81c36d-7a46-443d-a385-7f1f33d67c80">
+<img src="https://github.com/michelanyelo/BlogFrontEnd-sass-DL/assets/63103992/a3733f8b-61b4-49bb-a9c9-75de7353b1d4">
 
 ## 🌐 Tecnologías Utilizadas
 
