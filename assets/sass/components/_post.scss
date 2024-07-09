@@ -70,6 +70,7 @@
 
     &__img {
         @include img-style;
+        width: 100%;
         margin: $my-2;
     }
 }
