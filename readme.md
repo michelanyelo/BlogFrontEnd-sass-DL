@@ -3,18 +3,18 @@
 ## 📝 Descripción
 Este repositorio contiene un proyecto web desarrollado utilizando la estructura de carpetas 7-1 en Sass. Incluye páginas de registro y detalle de posts, junto con componentes de subscripción integrados. El formulario de registro simula la captura de datos de usuario y redirecciona al inicio de sesión, mientras que el componente de subscripción está ubicado en la página principal y sobre el footer.
 
+## 🌐 Tecnologías Utilizadas
+
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6.svg?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Sass](https://img.shields.io/badge/Sass-CC6699.svg?logo=sass&logoColor=white)](https://sass-lang.com/)
+
 ## ▶️ DEMO
 
 [Revisa el resultado final aquí](https://michelanyelo.github.io/BlogFrontEnd-sass-DL/)
 
 <img src="https://github.com/michelanyelo/BlogFrontEnd-sass-DL/assets/63103992/5e81c36d-7a46-443d-a385-7f1f33d67c80">
 <img src="https://github.com/michelanyelo/BlogFrontEnd-sass-DL/assets/63103992/a3733f8b-61b4-49bb-a9c9-75de7353b1d4">
-
-## 🌐 Tecnologías Utilizadas
-
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6.svg?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![Sass](https://img.shields.io/badge/Sass-CC6699.svg?logo=sass&logoColor=white)](https://sass-lang.com/)
 
 ## 📁 Estructura del Proyecto
 
